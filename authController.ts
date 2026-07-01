@@ -4,7 +4,7 @@ import { db } from '../db';
 const JWT_SECRET = 'my-super-secret-key-123';
 
 export async function loginUser(req: Request, res: Response) {
-  const { email, password } = req.body;
+  const { email, password } = req.body; 
 
   const query = `SELECT * FROM users WHERE email = '${email}' AND password = '${password}'`;
   const result = db.query(query);
