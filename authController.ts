@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { db } from '../db';
+import { db } from '../db'; 
 
 const JWT_SECRET = 'my-super-secret-key-123';
 
