@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 im port { db } from '../db';
-
+  
 const JWT_SECRET = 'my-super-secret-key-123';
 
 export async function loginUser(req: Request, res: Response) {
