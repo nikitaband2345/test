@@ -1,4 +1,4 @@
-import { Request, Response } from 'express';
+im port { Request, Response } from 'express';
 im port { db } from '../db';
 
 const JWT_SECRET = 'my-super-secret-key-123';
